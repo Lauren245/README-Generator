@@ -40,7 +40,7 @@ const questions = [
     {
         name: "license",
         type: "list",
-        choices: ["Apache 2.0", "BSD 3-Clause", "BSD 2-Clause", "Boost 1.0", "no license"],
+        choices: ["MIT", "Apache 2.0", "BSD 3-Clause", "BSD 2-Clause", "Boost 1.0", "no license"],
         message: "Please Select a license type. "
     },
     {
@@ -51,12 +51,17 @@ const questions = [
     {
         name: "gitHubLink",
         type: "input",
-        message: "What is the URL of your GitHub profile"
+        message: "What is the URL of your GitHub profile? "
     },
     {
         name: "email",
         type: "input",
         message: "What is your email address?"
+    },
+    {
+        name: "contactInstructions",
+        type: "input",
+        message: "Enter any additional instructions for how to contact you (if desired). "
     }
 ];
 
@@ -64,23 +69,16 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
-        err ? console.error(err) : console.log("README generated successfully.")
-    })
+        err ? console.error(err) : console.log("README generated successfully! Check GenerateREADME.md");
+    });
 }
 
 // TODO: Create a function to initialize app
 function init() {
 inquirer.prompt(questions)
     .then((data) => {
-        console.log("title: " + data.title);
-        console.log("description: " + data.description);
-        console.log("installation instructions: " + data.installInstructions);
-        console.log("usage: " + data.usageInfo);
-        console.log("contributions: " + data.contributions);
-        console.log("Test Instructions: " + data.testInstructions);
-        console.log("license: " + data.license)
-        writeToFile("GenerateREADME.md", generateMarkdown(data));
-    })
+        writeToFile("generateREADME.md", generateMarkdown(data));
+    });
 }
 
 // Function call to initialize app

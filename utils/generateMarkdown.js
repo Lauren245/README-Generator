@@ -3,6 +3,10 @@
 function renderLicenseBadge(license) {
   let badgeImg;
   switch(license){
+    case "MIT": {
+      badgeImg = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+      break;
+    }
     case "Apache 2.0": {
       badgeImg = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
       break;
@@ -34,6 +38,10 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   let licenseLink;
   switch(license){
+    case "MIT": {
+      licenseLink = "https://opensource.org/licenses/MIT";
+      break;
+    }
     case "Apache 2.0": {
       licenseLink = "https://opensource.org/licenses/Apache-2.0";
       break;
@@ -68,24 +76,22 @@ function renderLicenseSection(license) {
   if((license === "no license") || (license === null)){
     return "";
   }
-  return `
-   This application uses an ${license} license.
-  `;
+  return `This application is covered under a ${license} license.`;
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  console.log("running generateMarkdown function")
   return `# ${data.title}  
-  ${renderLicenseBadge(data.license)} ${renderLicenseLink(data.license)}
+  ${renderLicenseBadge(data.license)}  ${renderLicenseLink(data.license)}
   ## Table of Contents
-    [Description](#description)
-    [Installation](#installation)
-    [Usage](#usage)
-    [Contributing](#contributing)
-    [Tests](#tests)
-    [License](#license)
-    [Contact](#contact)
+  [Description](#description) \n
+  [Installation](#installation) \n
+  [Usage](#usage) \n
+  [Contributing](#contributing) \n
+  [Tests](#tests) \n
+  [License](#license) \n
+  [Contact](#contact) \n
+  &nbsp;&nbsp;&nbsp;&nbsp;[Additional Contact Instructions](#additional-contact-instructions)
   ## Description
   ${data.description}
   ## Installation
@@ -99,10 +105,10 @@ function generateMarkdown(data) {
   ## License
   ${renderLicenseSection(data.license)}
   ## Contact
-  GitHub: ${data.gitHubUsername} (${data.gitHubLink})
+  GitHub: [${data.gitHubUsername}](#${data.gitHubLink}) \n
   Email: ${data.email}
-
-
+  ### Additional Contact Instructions
+  ${data.contactInstructions}
 `;
 }
 
