@@ -67,7 +67,7 @@ function renderLicenseLink(license) {
     }
     default: {
       licenseLink = "";
-      console.error("An error occured while assigning a license link.")
+      console.error("An error occured while assigning a license link.");
       break;
     }
   }
