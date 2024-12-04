@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   let badgeImg;
   switch(license){
     case "MIT": {
-      badgeImg = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+      badgeImg = "[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
       break;
     }
     case "Apache 2.0": {
@@ -76,7 +76,7 @@ function renderLicenseSection(license) {
   if((license === "no license") || (license === null)){
     return "";
   }
-  return `This application is covered under a ${license} license.`;
+  return `Licensed under the ${license} license.`;
 }
 
 // TODO: Create a function to generate markdown for README

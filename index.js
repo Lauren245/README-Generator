@@ -1,5 +1,3 @@
-//const { default: inquirer } = require("inquirer");
-
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
 import fs from 'fs';
