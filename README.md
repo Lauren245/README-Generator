@@ -77,3 +77,7 @@ used code as reference for rendering license badges in Markdown.
 1. **[shields](https://github.com/badges/shields)** by [Sheilds.io](https://shields.io/) - Licensed under [CC0 LICENSE](https://github.com/badges/shields/blob/master/LICENSE)
 2. **[Inquirer.js](https://github.com/SBoudrias/Inquirer.js)** Copyright (c) 2023 Simon Boudrias (twitter: [@vaxilart](https://twitter.com/Vaxilart)) - Licensed under the MIT license.
  
+
+ TODOS 
+ 1. Include screenshots
+ 2. Record video and include link
