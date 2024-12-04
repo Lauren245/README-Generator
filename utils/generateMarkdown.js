@@ -90,7 +90,7 @@ function generateMarkdown(data) {
   [Contributing](#contributing) \n
   [Tests](#tests) \n
   [License](#license) \n
-  [Contact](#contact) \n
+  [Questions](#questions) \n
   &nbsp;&nbsp;&nbsp;&nbsp;[Additional Contact Instructions](#additional-contact-instructions)
   ## Description
   ${data.description}
@@ -104,7 +104,9 @@ function generateMarkdown(data) {
   ${data.testInstructions}
   ## License
   ${renderLicenseSection(data.license)}
-  ## Contact
+  ## Questions
+  If you have additional questions, you can contact me at: 
+  
   GitHub: [${data.gitHubUsername}](#${data.gitHubLink}) \n
   Email: ${data.email}
   ### Additional Contact Instructions

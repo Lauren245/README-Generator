@@ -12,7 +12,7 @@
 
 [License](#license)
 
-[Contact](#contact)
+[Questions](#questions)
 
 [Resources](#resources)
 
@@ -54,7 +54,9 @@ Copyright 2024 Lauren Moore
 
 This software uses an [MIT license](https://opensource.org/license/MIT).
 
-## Contact
+## Questions
+If you have additional questions, you can contact me at: 
+
 GitHub: Lauren245 https://github.com/Lauren245
 
 Email: laurenmoorejm@gmail.com
