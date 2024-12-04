@@ -26,9 +26,9 @@ I would also like to add more fields such as resources used.
 
 ## Installation
 1. Clone [repository](https://github.com/Lauren245/README-Generator) 
-2. 
-3. 
-4. 
+2. Open code in a code editor such as VS Code.
+3. Navigate to the root folder for the project in the integrated terminal and run the command: *npm i*.
+4. Navigate to the index.js file in the integrated terminal and run the command: *node index.js*.
 
 ## Usage
 Once the software is ran, it will prompt the user with the following messages in the command line. These are answered one at a time via the command line.
@@ -77,4 +77,3 @@ used code as reference for rendering license badges in Markdown.
 1. **[shields](https://github.com/badges/shields)** by [Sheilds.io](https://shields.io/) - Licensed under [CC0 LICENSE](https://github.com/badges/shields/blob/master/LICENSE)
 2. **[Inquirer.js](https://github.com/SBoudrias/Inquirer.js)** Copyright (c) 2023 Simon Boudrias (twitter: [@vaxilart](https://twitter.com/Vaxilart)) - Licensed under the MIT license.
  
-add stuff for fs and generate markdown libraries.
