@@ -65,7 +65,7 @@ This software uses an [MIT license](https://opensource.org/license/MIT).
 ## Questions
 If you have additional questions, you can contact me at: 
 
-GitHub: Lauren245 https://github.com/Lauren245
+GitHub: [Lauren245](https://github.com/Lauren245)
 
 Email: laurenmoorejm@gmail.com
 
