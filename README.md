@@ -91,27 +91,27 @@ used code as reference for rendering license badges in Markdown.
 <!--I want captions so I am using the same text as the alt text because it provides a good explanation of the images-->
 **Image of the questions in the console showing the selection method for choosing a licesnse.**
 
-![Image of the questions in the console showing the selection method for choosing a licesnse.](assets\images\README-project-license-select.jpg)
+![Image of the questions in the console showing the selection method for choosing a licesnse.](.\assets\images\README-project-license-select.jpg)
 
 **Image depicting all fields filled out in the console along with a success message.**
 
-![Image depicting all fields filled out in the console along with a success message that says README generated successfully! Check generateREADME.md](assets\images\README-project-successful-generation.jpg)
+![Image depicting all fields filled out in the console along with a success message that says README generated successfully! Check generateREADME.md](.\assets\images\README-project-successful-generation.jpg)
 
 **Image of the generated README file in its "raw" markdown format (*includes license information*).**
 
-![Image of the generated README file in its raw markdown format. This version includes license information.](assets\images\README-project-generated-md-file.jpg)
+![Image of the generated README file in its raw markdown format. This version includes license information.](.\assets\images\README-project-generated-md-file.jpg)
 
 **Image of the preview for the generated README file (image 1 of 2) (*includes license information*).**
 
-![Image of the preview for the generated README file. Image 1 of 2. This version includes license information.](assets\images\README-project-generated-md-file-preview-part-1.jpg)
+![Image of the preview for the generated README file. Image 1 of 2. This version includes license information.](.\assets\images\README-project-generated-md-file-preview-part-1.jpg)
 
 **Image of the preview for the generated README file (image 2 of 2) (*includes license information*).**
 
-![Image of the preview for the generated README file. Image 2 of 2. This version includes license information.](assets\images\README-project-generated-md-file-preview-part-2.jpg)
+![Image of the preview for the generated README file. Image 2 of 2. This version includes license information.](.\assets\images\README-project-generated-md-file-preview-part-2.jpg)
 
 **Image of the preview for the generated README file (*does not include license information*). License information is not included if the user selects the *"no license"* option.**
 
-![Image of the preview for the generated README file. This version does not include license information. License information is not included if the user selects the no license option.](assets\images\README-project-generated-md-file-preview-no-license.jpg)
+![Image of the preview for the generated README file. This version does not include license information. License information is not included if the user selects the no license option.](.\assets\images\README-project-generated-md-file-preview-no-license.jpg)
 
 ## Video Demonstation
  **[Link to demonstration video on Google Drive](https://drive.google.com/file/d/1v-cikQ3jK05shErVkR445qKFHhHhvBlI/view?usp=sharing)**
