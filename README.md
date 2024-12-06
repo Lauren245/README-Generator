@@ -51,7 +51,9 @@ Once the software is ran, it will prompt the user with the following messages in
 - What is the URL of your GitHub profile?
 - What is your email address.
 
-After answering these questions, the user will be told if the README was created successfully. If it was, the new README can be found in a generated file called generateREADME.md. If it was unsuccessful, then the console will display the appropriate error message.
+After answering these questions, the user will be told if the README was created successfully. If it was, the new README can be found in a generated file called generatereadme.md. If it was unsuccessful, then the console will display the appropriate error message.
+
+**NOTE: the generateReadme.md is part of the repository pushed to GitHub to serve as a sample of the generated output. If you want to test file creation, delete generatereadme.md and run the program again. It will be regenerated with the new output.**
 
 ## Tests 
 There are currently no automated tests for this project. I would like to add those in the future. The program generates a new README each time, so the code can 
