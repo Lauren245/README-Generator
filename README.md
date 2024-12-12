@@ -22,7 +22,7 @@
 
 [Screenshots](#screenshots)
 
-[Video Demonstration](#video-demonstation)
+[Video Demonstration](#video-demonstration)
 
 
 ## Description
@@ -115,7 +115,7 @@ used code as reference for rendering license badges in Markdown.
 
 ![Image of the preview for the generated README file. This version does not include license information. License information is not included if the user selects the no license option.](./assets/images/README-project-generated-md-file-preview-no-license.jpg)
 
-## Video Demonstation
+## Video Demonstration
  **[Link to demonstration video on Google Drive](https://drive.google.com/file/d/1v-cikQ3jK05shErVkR445qKFHhHhvBlI/view?usp=sharing)**
 
 ---
